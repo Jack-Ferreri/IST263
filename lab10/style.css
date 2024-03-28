@@ -49,6 +49,6 @@ nav a:hover{background-color: #f9f07a}
 
     @media only screen and (max-width: 600px) {
         nav a {
-            width: 100%;
+            width: 100%; margin: 5px 0;
         }
         nav span {display: none; }}
