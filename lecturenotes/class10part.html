@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style> 
+   .large-text {
+    display: none;
+  }
+  
+  .small-text {
+    display: none;
+  }
+  
+  @media screen and (min-width: 801px) {
+    .large-text {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .small-text {
+      display: block;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="large-text">
+    <h1>I'm Small</h1>
+  </div>
+  <div class="small-text">
+    <h1>I'm Large</h1>
+</body>
+</html>
