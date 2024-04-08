@@ -1,0 +1,13 @@
+nav {background-color: #1541f2;
+    padding: 10px;
+    margin-bottom:  30px;
+    }
+    nav a{color: #ffffff}
+    nav a:hover{background-color: rgb(234, 32, 17)}
+    .copyright { float: left; color: #ffffff;}
+.tagline {text-align: center; color: #ffffff;}
+h1 {color: #000000}
+footer {background-color: #1541f2;
+    }
+.bam {text-align: center; color:#ffffff}
+.navtit {text-align: right;}
